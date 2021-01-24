@@ -1,0 +1,30 @@
+{
+  "name": "does-the-dog-die-twitch",
+  "version": "0.0.1",
+  "description": "basic twitch bot for content warnings",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "dotenv": "^8.2.0",
+    "tmi.js": "^1.7.1",
+    "qs": "^6.9.6",
+    "chalk": "^4.1.0",
+    "memory-cache": "^0.2.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
