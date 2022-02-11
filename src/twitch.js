@@ -144,12 +144,12 @@ async function getChannelInfo(broadcasterId) {
   };
 }
 
-async function getCurrentGameByUsername(username) {
+async function getCurrentCategoryByUsername(username) {
   const broadcasterId = await getCachedBroadcasterIdByUsername(username);
   const channelInfo = await getChannelInfo(broadcasterId);
   return channelInfo.categoryName;
 }
 
 module.exports = {
-  getCurrentGameByUsername
+  getCurrentCategoryByUsername
 };
