@@ -1,4 +1,4 @@
-# content-warning-bot-taitch
+# content-warning-bot-twitch
 
 basic twitch bot for content warnings, uses doesthedogdie.com
 
